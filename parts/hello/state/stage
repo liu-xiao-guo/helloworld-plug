@@ -1,0 +1,7 @@
+!StageState
+directories: !!set {bin: null}
+files: !!set {bin/createfile: null, bin/createfiletohome: null, bin/echo: null, bin/env: null,
+  bin/evil: null, bin/sh: null, bin/writetocommon: null}
+project_options: {}
+properties:
+  stage: ['*']

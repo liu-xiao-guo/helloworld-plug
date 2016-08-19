@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+echo "Hello a nice World!"
+
+echo "This example demonstrates the app confinement"
+echo "This app tries to write to its own user directory"
+
+echo "Haha" > /home/$USER/test.txt
+
+echo "Succeeded! Please find a file created at $HOME/test.txt"
+echo "If do not see this, please file a bug"

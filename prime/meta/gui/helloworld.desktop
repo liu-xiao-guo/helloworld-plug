@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Hello
+GenericName=Hello world
+Comment=A hello world Ubuntu Desktop
+Keywords=hello;world;
+Exec=hello-xiaoguo.hello-world
+Icon=${SNAP}/meta/gui/helloworld.png
+Terminal=true
+X-Ubuntu-Touch=false
+X-Ubuntu-Default-Department-ID=accessories
+X-Ubuntu-Splash-Color=#F5F5F5
+StartupNotify=true
