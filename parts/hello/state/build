@@ -1,5 +1,0 @@
-!BuildState
-project_options: {deb_arch: amd64}
-properties:
-  files: {./bin: bin}
-schema_properties: [files]
